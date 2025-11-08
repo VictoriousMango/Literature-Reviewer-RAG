@@ -1,0 +1,17 @@
+{
+    "Topic": "Literature Reviewer RAG Results",
+    "QnA": [
+        {
+            "Question": "Create a summary of the document.",
+            "Answer": "Here is a summary of the document:\n* Project Overview\n  + Key stages:\n    - Feature Detection & Matching\n    - Pose Estimation & Mapping\n    - Loop Closure (BoVW)\n    - Trajectory & Visualization\n    - Streamlit Dashboard\n    - Docker & ROS2 Integration\n* VSLAM Workflow\n  + Core pipeline stages\n* Visual-Words (BoVW) model\n  + Employs:\n    - Cosine similarity\n    - Geometric verification \n      for accurate location identification"
+        },
+        {
+            "Question": "What are the key findings discussed in the document?",
+            "Answer": "* Key findings:\n  * Project Overview:\n    + Feature Detection & Matching\n    + Pose Estimation & Mapping\n    + Loop Closure (BoVW)\n    + Trajectory & Visualization\n    + Streamlit Dashboard\n    + Docker & ROS2 Integration\n  * VSLAM Workflow:\n    + Core pipeline stages\n    + Modular implementation for scalability and debugging efficiency\n  * Visual-Words (BoVW) model:\n    + Employs cosine similarity and geometric verification\n    + Accurately identifies revisited locations"
+        },
+        {
+            "Question": "Are there any limitations mentioned in the document?",
+            "Answer": "* Limitations are not explicitly mentioned in the document\n* However, some potential limitations can be inferred from the context:\n  + The system was only tested using SIFT, ORB, BRISK, and Affine variants\n  + The system was only tested across KITTI dataset sequences \n* No other limitations are mentioned in the provided context"
+        }
+    ]
+}
